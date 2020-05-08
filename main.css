@@ -1,0 +1,13 @@
+.the-card {
+    font-size: 22px;
+    color: #fff;
+}
+.do-center {
+    text-align: center;
+}
+.icons {
+    transition: 0.5s;
+}
+.icons:hover {
+    transform: scale(1.2);
+}
