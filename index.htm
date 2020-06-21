@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johdev</title>
+    <title>JohDev</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="Style/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link >
 </head>
 <body>
-    <!--make the Navigation bar at the Top-->
     <div class="container-fluid fixed-top" style="background-color:  #000;">
         <div class="container">
            <nav class="navbar navbar-expand-md navbar-dark">
-               <a class="navbar-brand" href="#">Logo</a>
+               <a class="navbar-brand" href="#"><img src="assets/JohDev logo.png" height="40px" alt=""></a>
                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                    aria-expanded="false" aria-label="Toggle navigation">
                 <img src="assets/menu.png" alt="">
@@ -27,13 +26,16 @@
                            <a class="nav-link" href="#">Hire me <span class="sr-only">(current)</span></a>
                        </li>
                        <li class="nav-item ml-3">
-                           <a class="nav-link" href="#">About me</a>
+                           <a class="nav-link" href="#about">About me</a>
                        </li>
                        <li class="nav-item ml-3">
-                          <a class="nav-link" href="#">Works</a>
+                          <a class="nav-link" href="#work">Works</a>
                        </li>
                        <li class="nav-item ml-3">
-                           <a class="nav-link" href="#">My Skills</a>
+                           <a class="nav-link" href="#skills">My Skills</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#project">Propose Project</a>
                        </li>
                    </ul>
                </div>
@@ -60,7 +62,7 @@
           <div class="row pt-5">
               <div class="col-md-4"></div>
               <div class="col-md-4">
-                  <div class="card" style="border-radius: 10px; background-color:rgb(10, 84, 128)">
+                  <div class="card" style="border-radius: 1px; background-color: rgb(1, 70, 66);">
                       <div class="card-body">
                           <h5 class="card-title" style="color: white; text-align:center; font-family: roboto;">Project Finished</h5>
                           <p class="card-text" style="text-align: center; color: rgb(175, 175, 175)">Andorid 2 | Web 12 | UI Design 23 Projects</p>
@@ -72,6 +74,8 @@
         </div>
     </div>
     <!---It goes in the Center whre am going to make some codes ; ) -->
+    <div class="contain-consept" id="about"></div>
+    <div class="consept-container"></div>
     <div class="container-fluid">
         <div class="container">
             <h2 style="text-align: center; font-family: 'Sans serif" class="mt-4 p-5">ABOUT ME</h2>
@@ -85,6 +89,8 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
+            <!---Working Experience in here-->
+            <div class="skills-link" id="skills"></div>
             <!---make the Working skills hapa now is 04:40AM need to sleep-->
            <p style="text-align: center;"> <button class="btn btn-danger mt-5 pl-4 pr-4" style="border-radius: 45px; background-color: rgb(255, 0, 55)">Get in touch</button></p>
            <div class="row mt-5">
@@ -97,7 +103,7 @@
                <div class="col-md-4">
                    <h4 class="do-center p-3">Mobile Development</h4>
                    <p class="do-center">
-                        Android Java <br> Dart / Flutter
+                        Android (Native) <br> Dart / Flutter
                    </p>
                </div>
                <div class="col-md-4">
@@ -107,49 +113,55 @@
                    </p>
                </div>
            </div>
+           <!---Work Section for LInk here-->
+           <div class="shoe-work" id="work"></div>
            <h2 style="text-align: center; font-family: 'roboto" class="mt-4 p-5">MY <span style="font-weight:200">WORKS</span></h2>
            <!--Show my Works here-->
            <div class="row">
                <div class="col-md-4 mt-3">
                    <div class="card">
-                       <img class="card-img" src="media/10e2103b46c8d9ed8d1d02b6d9216f6b.jpg" alt="">
-                       <div class="card-img-overlay">
-                        <div style="background-color: rgba(3, 2, 0, 0.575); border-radius: 5px cursor: pointer" class="main-card p-3">
-                            <h5 class="card-title" style="color: #fff">E-commerce (Online)</h5>
-                            <p class="card-text" style="color: #fff">Rource Google Playstore</p>
-                            </div>
-                       </div>
+                       <img class="card-img" src="media/kids_.png" alt="">
+                       <div class="card-img-overlay main-card">
+                        <div class=" p-3">
+                        <h5 class="card-title" style="color: #fff">TeachMe Kids (Education)</h5>
+                        <p class="card-text" style="color: #fff">Source Google Playstore</p>
+                        <button class="btn btn-light" style="border-radius: 1px; background-color: red; color: #fff">View Project</button>
+                        </div>
+                    </div>
                    </div>
                </div>
                <div class="col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img" src="media/13c06b5b4701c8afceb24def11ecfe37.gif" alt="">
-                        <div class="card-img-overlay">
-                            <div style="background-color: rgba(3, 2, 0, 0.575); border-radius: 5px; cursor: pointer" class="main-card p-3">
-                                <h5 class="card-title" style="color: #fff">E-commerce (Online)</h5>
-                                <p class="card-text" style="color: #fff">Rource Google Playstore</p>
-                                </div>
+                        <div class="card-img-overlay main-card">
+                            <div class=" p-3">
+                            <h5 class="card-title" style="color: #fff">Cereal Shop (E-cemmerce)</h5>
+                            <p class="card-text" style="color: #fff">Prototyping in Pinterest</p>
+                            <button class="btn btn-light" style="border-radius: 1px; background-color: red; color: #fff">View Project</button>
+                            </div>
                         </div>
                     </div>
                </div>
                <div class="col-md-4 mt-3">
                    <div class="card">
                        <img class="card-img" src="media/453e24ce3ffd3d65988bb8026c54281e (1).png" alt="">
-                       <div class="card-img-overlay">
-                           <div style="background-color: rgba(3, 2, 0, 0.575); border-radius: 5px; cursor: pointer" class="main-card p-3">
-                                <h5 class="card-title" style="color: #fff">Online Learning App</h5>
-                                <p class="card-text" style="color: #fff">Rource Google Playstore</p>
-                           </div>
-                       </div>
+                       <div class="card-img-overlay main-card">
+                        <div class=" p-3">
+                        <h5 class="card-title" style="color: #fff">E-commerce (Local Shop)</h5>
+                        <p class="card-text" style="color: #fff">Source Google Playstore</p>
+                        <button class="btn btn-light" style="border-radius: 1px; background-color: red; color: #fff">View Project</button>
+                        </div>
+                    </div>
                    </div>
                </div>
                <div class="col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img" src="media/48012e66c6603db2fb553a9393565cca.jpg" alt="">
-                        <div class="card-img-overlay">
-                            <div style="background-color: rgba(3, 2, 0, 0.575); border-radius: 5px; cursor: pointer" class="main-card p-3">
-                            <h5 class="card-title" style="color: #fff">Online Learning App</h5>
-                            <p class="card-text" style="color: #fff">Rource Google Playstore</p>
+                        <div class="card-img-overlay main-card">
+                            <div class=" p-3">
+                            <h5 class="card-title" style="color: #fff">FinTech App (Banking)</h5>
+                            <p class="card-text" style="color: #fff">Prototyping in Dribbble</p>
+                            <button class="btn btn-light" style="border-radius: 1px; background-color: red; color: #fff">View Project</button>
                             </div>
                         </div>
                     </div>
@@ -157,10 +169,11 @@
                <div class="col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img" src="media/453e24ce3ffd3d65988bb8026c54281e (1).png" alt="">
-                        <div class="card-img-overlay">
-                            <div style="background-color: rgba(3, 2, 0, 0.575); border-radius: 5px; cursor: pointer" class="main-card p-3">
-                            <h5 class="card-title" style="color: #fff">E-commerce (Online)</h5>
-                            <p class="card-text" style="color: #fff">Rource Google Playstore</p>
+                        <div class="card-img-overlay main-card">
+                            <div class=" p-3">
+                            <h5 class="card-title" style="color: #fff">Deliver app (Map View)</h5>
+                            <p class="card-text" style="color: #fff">Source Google Playstore</p>
+                            <button class="btn btn-light" style="border-radius: 1px; background-color: red; color: #fff">View Project</button>
                             </div>
                         </div>
                     </div>
@@ -168,23 +181,25 @@
                <div class="col-md-4 mt-3">
                     <div class="card">
                         <img class="card-img" src="media/6871e167684057.5b42fea6323da.jpg" alt="">
-                        <div class="card-img-overlay">
-                            <div style="background-color: rgba(3, 2, 0, 0.575); border-radius: 5px; cursor: pointer" class="main-card p-3">
+                        <div class="card-img-overlay main-card">
+                            <div class=" p-3">
                             <h5 class="card-title" style="color: #fff">Music App (Streaming audios)</h5>
                             <p class="card-text" style="color: #fff">Source Google Playstore</p>
+                            <button class="btn btn-light" style="border-radius: 1px; background-color: red; color: #fff">View Project</button>
                             </div>
                         </div>
                     </div>
                </div>
            </div>
-
+           <!--Project Proposal Creation-->
+           <div class="projecct-link" id="project"></div>
            <!---New End here there-->
            <h2 style="text-align: center; font-family: 'roboto" class="mt-4 pt-5"><span style="font-weight: 200">TELL ME YOUR</span> PROJECT</h2>
            <!--Crating the Form to get User Data-->
            <form class="form mt-4" action="">
                <div class="row">
                    <div class="col-md-6 mt-3">
-                       <input class="form-control" required type="email" placeholder="Your Email">
+                       <input class="form-control" required type="text" placeholder="Your Email or Phone number">
                    </div>
                    <div class="col-md-6 mt-3">
                        <input class="form-control" required type="text" placeholder="Your Full name">
