@@ -8,7 +8,7 @@ Upload everyday the wounderfull job i have done already in github..!! And also i
 ### Prerequisites
 
 ```
-GIT Versionh control
+npm start
 ```
 
 ### Understand how the Git works and make some repository in github account
