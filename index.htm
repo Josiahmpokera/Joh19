@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JohDev</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="Style/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link >
 </head>
@@ -199,13 +197,13 @@
            <form class="form mt-4" action="">
                <div class="row">
                    <div class="col-md-6 mt-3">
-                       <input class="form-control" required type="text" placeholder="Your Email or Phone number">
+                       <input id="email" class="form-control" required type="text" placeholder="Your Email or Phone number">
                    </div>
                    <div class="col-md-6 mt-3">
-                       <input class="form-control" required type="text" placeholder="Your Full name">
+                       <input id="name" class="form-control" required type="text" placeholder="Your Full name">
                    </div>
                    <div class="col-md-12 mt-3">
-                       <input type="text" class="form-control" required placeholder="Project Title">
+                       <input id="title" type="text" class="form-control" required placeholder="Project Title">
                    </div>
                    <div class="col-md-12 mt-3">
                        <div class="form-group">
@@ -215,7 +213,7 @@
                    </div>
                    <!---Main Button for Sending the Me (Developer)-->
                    <div class="col-md-12 mb-5">
-                       <button class="btn btn-success form-control">Send</button>
+                       <input id="submit" type="submit" class="btn btn-success form-control" value="Submit">
                    </div>
                </div>
            </form>
@@ -240,13 +238,10 @@
     <div class="footer p-2 mt-5" style="background-color: #000">
         <p style="text-align: center; color: white">Copyright © 2020 All rights reserved</p>
     </div>
-    <script src="Style/bootstrap.min.js"></script>
+    <script src="function.js">//Handles the mform functions in the form here</script>
     <script src="./node_modules/popper.js/src/index.js"></script>
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./node_modules/jquery/src/ajax.js"></script>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="Query/query.js"></script>
-    <script src="./jQuery animaiton/particleground-master/demo/js/demo.js"></script>
 </body>
 </html>
