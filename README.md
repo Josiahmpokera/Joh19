@@ -5,18 +5,4 @@ This is ablut my self in productivity of my won work. Here is my portfolio which
 ## How am going to make it!
 
 Upload everyday the wounderfull job i have done already in github..!! And also i'll make a youtube tutorials for Learning Purpose only..!! Every Developer should be familiar with:- 
-### Prerequisites
 
-```
-npm start
-```
-
-### Understand how the Git works and make some repository in github account
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
